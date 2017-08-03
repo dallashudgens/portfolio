@@ -1,0 +1,31 @@
+{
+  "name": "dallashudgens-portfolio",
+  "version": "1.0.0",
+  "description": "A place to showcase my resume and work related endevors ",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dallashudgens/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "fed",
+    "resume"
+  ],
+  "author": "Dallas Hudgens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dallashudgens/portfolio/issues"
+  },
+  "homepage": "https://github.com/dallashudgens/portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0"
+  }
+}

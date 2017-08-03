@@ -1,11 +1,16 @@
+@import 'resume';
+
 /*.maroon { color: #a31d3b; }
 .off-white { color: #ebfef7; }
 less blue white: edf7f3
 */
+$wine-red: #a31d3b;
+$blue-white: #edf7f3;
+$black: #000;
 
 body {
-  background-color: #edf7f3;
-  color: #a31d3b;
+  background-color: $blue-white;
+  color: $wine-red;
 }
 
 header {
@@ -17,19 +22,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-header svg {
-  margin-right: 1rem;
-  width: 3rem;
+  svg {
+    margin-right: 1rem;
+    width: 3rem;
+  }
 }
 
 main {
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
-}
 
-p {
-  margin: .2rem;
+  p {
+    margin: .2rem;
+  }
 }
