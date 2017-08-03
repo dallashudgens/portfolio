@@ -5,7 +5,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 
 const sassDir = 'client-src/scss/**/*.scss';
-const publicDir = 'public/';
+const publicDir = '';
 
 gulp.task('sass', function () {
   return gulp.src(sassDir)
