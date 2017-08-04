@@ -1,0 +1,35 @@
+.resume {
+  margin: 0rem 1rem 0rem 4rem;
+  font-size: 1rem;
+
+  section {
+    margin-bottom: .8rem;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-weight: 700;
+  }
+
+  h4 {
+    font-style: italic;
+    margin-left: 1rem;
+    margin-bottom: .4rem;
+  }
+
+  p {
+    margin: 0rem 0rem .5rem 0rem;
+  }
+
+  ul {
+    margin-top: 0rem;
+
+    li {
+      padding: .2rem 0;
+    }
+  }
+}

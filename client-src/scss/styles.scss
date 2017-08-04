@@ -15,12 +15,12 @@ body {
 
 header {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-family: 'Zilla Slab', serif;
-  margin-top: 10rem;
+  margin-top: .5rem;
   margin-bottom: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 
   svg {
@@ -30,11 +30,13 @@ header {
 }
 
 main {
-  text-align: center;
-  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
   font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 
-  p {
-    margin: .2rem;
-  }
+  // p {
+  //   margin: .2rem;
+  // }
 }
